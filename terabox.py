@@ -126,9 +126,9 @@ async def start_command(client: Client, message: Message):
     await asyncio.sleep(3)
     await sticker_message.delete()
     user_mention = message.from_user.mention
-    join_button = InlineKeyboardButton("💢⬍⬍JOIN⬍⬍♻", url="https://t.me/LarvaLinks")
-    developer_button = InlineKeyboardButton("🌻⬍DeveLoper⬍🗿", url="https://t.me/BhardwajBhavit")
-    repo69 = InlineKeyboardButton("💥Free Anime⬍DataBase😎", url="https://t.me/+Y_QdbkhM2OFmNmZl")
+    join_button = InlineKeyboardButton("💢⬍⬍JOIN⬍⬍♻", url="https://t.me/NeonGhost_Network")
+    developer_button = InlineKeyboardButton("🌻⬍DeveLoper⬍🗿", url="https://t.me/NeonGhost")
+    repo69 = InlineKeyboardButton("💥Premium Videos😎", url="https://t.me/+-pjYvSl6GAk2YzQ0")
     user_mention = message.from_user.mention
     reply_markup = InlineKeyboardMarkup([[join_button, developer_button], [repo69]])
     final_msg = f"<b><blockquote>🏴‍☠️Ahhoyy⬍! Pirate⬍.💀, {user_mention}.\n\n<i>⭕Aahha⬍!🎃 ⬍⬍TeraBox Downloader⬍⬍ Here⚓</i></blockquote>\n\n━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━⬍━\n\n🃏i am ⬍⬍Tottttllyy Freee⬍⬍.👻\n🔆Just Send TeraBox Link🌻⬍</b>."
@@ -160,7 +160,7 @@ async def handle_message(client: Client, message: Message):
     is_member = await is_user_member(client, user_id)
 
     if not is_member:
-        join_button = InlineKeyboardButton("<i>♻<b>⬍Just JOIN⬍</b>🏝</i>", url="https://t.me/+0qXyse_1_GA3Mjc1")
+        join_button = InlineKeyboardButton("<i>♻<b>⬍Just JOIN⬍</b>🏝</i>", url="https://t.me/+-pjYvSl6GAk2YzQ0")
         reply_markup = InlineKeyboardMarkup([[join_button]])
         await message.reply_text("<b><blockquote>💢Ahhoyy⬍! Pirate🎃\n\n<i>🏴‍☠️⬍Just Join⬍ Channel for Once!🤞</i></blockquote>\n\n❄Then Unlimited ⬍FREE⬍ Downloads👻</b>", reply_markup=reply_markup)
         return
@@ -214,7 +214,7 @@ async def handle_message(client: Client, message: Message):
         f"⬍File🎃🏝⬍ {download.name}\n"
         f"⬍By Leecher⬍ : <a href='tg://user?id={user_id}'>{message.from_user.first_name}</a>\n"
         f"⬍UserLink⬍: tg://user?id={user_id}\n\n"
-        "[PowerdBy <b> Click Kar ke dekh</b>](https://t.me/+d6pDCaZCyOI0ODk1)"
+        "[PowerdBy <b> Click Kar ke dekh</b>](https://teraboxlink.com/s/16kx4tn6nCPp-5FLyaOKjyQ)"
     )
 
     last_update_time = time.time()
